@@ -48,5 +48,8 @@ def run(songs)
   input = gets.strip
   while input != "exit" do
     case input
+    when "help"
+      help
+      when
   end
 end
