@@ -26,13 +26,19 @@ def play(songs)
   while index < songs.size do
     if input == songs[index]
       puts "Playing #{songs[index}"
+      break
     elsif input.to_i == index + 1
       puts "Playing #{songs[index}"
       break
     else
       puts "Invalid input, please try again"
+      break
     end
     index += 1
   end
+  
+end
+
+def run(songs)
   
 end
