@@ -24,7 +24,8 @@ def play(songs)
   
   index = 0
   while index < songs.size do
-    if input ==
+    if input == songs[index]
+      puts "Playing #{songs[index}"
     elsif input.to_i == index + 1
       puts "Playing #{songs[index}"
       break
