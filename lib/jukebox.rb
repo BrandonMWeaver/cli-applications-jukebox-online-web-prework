@@ -17,3 +17,7 @@ def list(songs)
     index += 1
   end
 end
+
+def play(songs)
+  
+end
