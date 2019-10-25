@@ -19,5 +19,16 @@ def list(songs)
 end
 
 def play(songs)
+  puts "Please enter a song name or number"
+  input = gets.strip
   
+  index = 0
+  while index < songs.size do
+    if input ==
+    elsif input.to_i == index + 1
+      puts "Playing #{songs[index}"
+      break
+    end
+    index += 1
+  end
 end
